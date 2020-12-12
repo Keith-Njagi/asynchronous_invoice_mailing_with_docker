@@ -21,3 +21,8 @@ You will need to have _docker_ and _docker compose_ installed.
 
 Also generate your own *config.env* file in the _mailing_ folder.
 
+### Routes
+
+You can verify everything runs correctly at your home route: [http://127.0.0.1](http://127.0.0.1)
+
+Now initiate your invoice mailing at [http://127.0.0.1/<username>]()
