@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy all files to /app
 ADD . /app
 
-# Update and install wkhtmltopdf for use with pdfkit
+# Update and install wkhtmltopdf and xvfb for use with pdfkit
 RUN apt-get update
 RUN apt-get install -y wkhtmltopdf xvfb
 

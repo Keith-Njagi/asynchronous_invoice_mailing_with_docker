@@ -1,13 +1,10 @@
 import os
 
-
 import pdfkit
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 from flask_mail import Mail, Message
 from pyvirtualdisplay import Display
-
-
 
 from flask_celery import make_celery
 
