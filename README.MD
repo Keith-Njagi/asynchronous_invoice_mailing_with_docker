@@ -25,7 +25,7 @@ Also generate your own *config.env* file in the _mailing_ folder.
 
 You can verify everything runs correctly at your home route: [http://127.0.0.1](http://127.0.0.1)
 
-Now initiate your invoice mailing at [http://127.0.0.1/my_username]()
+Now initiate your invoice mailing at [http://127.0.0.1/my_username](http://127.0.0.1)
 
 You can now also access it via your wifi network. Just replace _127.0.0.1_ with your ip address within the wifi network.
 
