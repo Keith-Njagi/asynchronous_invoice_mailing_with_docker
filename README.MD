@@ -29,4 +29,4 @@ Now initiate your invoice mailing at [http://127.0.0.1/my_username]()
 
 You can now also access it via your wifi network. Just replace _127.0.0.1_ with your ip address within the wifi network.
 
-If you can manage port fowarding to your internet router, then it is possible to view it from the outside word.
+If you can manage port fowarding to your internet router, then it is possible to view it from the outside world.
