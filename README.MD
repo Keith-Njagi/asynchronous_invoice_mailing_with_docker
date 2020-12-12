@@ -25,4 +25,4 @@ Also generate your own *config.env* file in the _mailing_ folder.
 
 You can verify everything runs correctly at your home route: [http://127.0.0.1](http://127.0.0.1)
 
-Now initiate your invoice mailing at [http://127.0.0.1/<username>]()
+Now initiate your invoice mailing at [http://127.0.0.1/my_username]()
