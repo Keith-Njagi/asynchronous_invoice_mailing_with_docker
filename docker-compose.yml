@@ -1,0 +1,38 @@
+version: "3.7"
+
+services:
+
+  mailing:
+    build: ./mailing
+    container_name: mailing
+    restart: always
+    env_file: ./mailing/config.env
+    environment: 
+      - APP_NAME=MyMailingApp
+    expose:
+      - 9191
+      - 8080
+    links:
+      - redis
+      - celery
+      
+  nginx:
+    build: ./nginx
+    container_name: nginx
+    restart: always
+    ports:
+    - "80:80"
+    
+  celery:
+    build: ./mailing
+    container_name: celery_mailing_task_queue
+    env_file: ./mailing/config.env
+    command: celery -A main.celery worker --loglevel=info
+    links:
+      - redis
+    depends_on:
+      - redis
+    
+  redis:
+    image: redis:latest
+    container_name: redis_backend
