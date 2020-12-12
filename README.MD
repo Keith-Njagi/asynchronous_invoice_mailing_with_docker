@@ -1,7 +1,7 @@
 This is a sample asynchronous invoice mailing python app that uses celery and redis backend to carry out asynchronous mailing.
 As the focus wasn't on making a python backend but on the asynchronous program, you will need to have a database with a sample *username* and *email*.
 
-The asynchronous program uses celery and redis as its backend.
+The asynchronous program uses [celery](https://docs.celeryproject.org/en/stable/getting-started/first-steps-with-celery.html) and _redis_ as its backend.
 
 ## To start the server
 
