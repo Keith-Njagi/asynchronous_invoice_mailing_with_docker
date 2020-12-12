@@ -3,6 +3,12 @@ As the focus wasn't on making a python backend but on the asynchronous program, 
 
 The asynchronous program uses [celery](https://docs.celeryproject.org/en/stable/getting-started/first-steps-with-celery.html) and _redis_ as its backend and Nginx as the reverse proxy.
 
+## Requirements
+
+You will need to have _docker_ and _docker compose_ installed.
+
+Also generate your own *config.env* file in the _mailing_ folder.
+
 ## To start the server
 
 - docker-compose build
@@ -14,12 +20,6 @@ Then:
 Or run it in just one line 
 
 - docker-compose up --build
-
-### Requirements
-
-You will need to have _docker_ and _docker compose_ installed.
-
-Also generate your own *config.env* file in the _mailing_ folder.
 
 ### Routes
 
