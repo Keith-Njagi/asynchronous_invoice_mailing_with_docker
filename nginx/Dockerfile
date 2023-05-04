@@ -1,5 +1,5 @@
 # Pull from this image
-FROM nginx
+FROM nginx:1-bullseye
 
 # Remove nginx default config file and replace it with our config file
 RUN rm /etc/nginx/conf.d/default.conf
